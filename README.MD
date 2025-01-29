@@ -222,3 +222,84 @@ print(pi_value)  # Output: The value of pi is approximately 3.14.
 * else-if
 * nested if else
 * 
+
+# Python Collections
+
+Python provides several collection types to store and manage data effectively. Each collection type has unique properties and use cases. This document covers the key features, usage, and examples of each collection type.
+
+---
+
+#### **Tuple**
+
+- **Definition**: A `tuple` is an **ordered** and **immutable** collection.
+- **Syntax**: Tuples are written in **parentheses** `()`.
+- **Key Features**:
+  - Cannot be modified once created.
+  - Only "get" functions (e.g., accessing elements) are allowed.
+  - Operations like addition, subtraction, modifying, or appending are **not allowed**.
+  - To perform changes, convert the tuple to a list, modify it, and convert it back to a tuple.
+  - Joining and combining tuples is allowed.
+  - **Example**:
+    ```python
+    my_tuple = (1, 2, 3)
+    print(my_tuple[0])  # Output: 1
+    combined_tuple = my_tuple + (4, 5)
+    print(combined_tuple)  # Output: (1, 2, 3, 4, 5) ```
+
+
+#### List in Python
+
+###### **Definition**
+A `list` is an **ordered** and **mutable** collection in Python.
+
+##### **Syntax**
+Lists are written in **square brackets** `[]`.
+
+###### **Key Features**
+- **Mutable**: Elements can be modified, added, or removed.
+- Can contain **duplicate values**.
+- **Indexing**:
+  - Counting starts from `0`.
+  - **Negative indexing** is supported (e.g., `-1` for the last element).
+- **Slicing**: Retrieve parts of the list using `[start:end:step]`.
+
+##### **Common Methods**
+1. **`append()`**: Add an element to the end of the list.
+2. **`pop()`**: Remove and return the last element (or a specific index).
+3. **`remove()`**: Remove the first occurrence of a specific value.
+4. **`insert()`**: Insert an element at a specific position.
+5. **`extend()`**: Extend the list by appending elements from another list.
+
+##### **Example**
+```python
+# Create a list
+my_list = [10, 20, 30]
+
+# Append
+my_list.append(40)
+print(my_list)  # Output: [10, 20, 30, 40]
+
+# Pop
+my_list.pop()
+print(my_list)  # Output: [10, 20, 30]
+
+# Remove
+my_list.remove(20)
+print(my_list)  # Output: [10, 30]
+
+# Insert
+my_list.insert(1, 25)
+print(my_list)  # Output: [10, 25, 30]
+
+# Extend
+my_list.extend([35, 40])
+print(my_list)  # Output: [10, 25, 30, 35, 40]
+
+# Negative Indexing
+print(my_list[-1])  # Output: 40
+
+# Slicing
+print(my_list[1:4])  # Output: [25, 30, 35]
+```
+
+
