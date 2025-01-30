@@ -33,3 +33,5 @@ class mainClass:
         print("Peddireddy")
 
 mainClass.myNew(self=" ")
+
+class
