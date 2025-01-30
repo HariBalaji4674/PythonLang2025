@@ -301,5 +301,20 @@ print(my_list[-1])  # Output: 40
 # Slicing
 print(my_list[1:4])  # Output: [25, 30, 35]
 ```
+#### Basics Of Problem-Solving:
 
+#### Flow Charts:
+- graphical representation of any process system or algorithm
+- uses symbols and arrows to show sequence of steps
+- Visualizing how to solve the problem
+
+#### Process to solve a Problem:
+- Analyse the problem
+- Break down problem into smalled sub parts
+- remember the concept/enlist the concept
+- Take 2-3 examples {Ask doubts in interviewer}
+- Write pseudocode
+- Dry run once
+- Write Down your solution
+- Look out for edge cases and boundary conditions
 

@@ -28,8 +28,8 @@ Oops support In python
 5: Abstraction
 """
 
-class myClass:
-    def myfunc1(self):
-        print("Hari Vardhan reddy")
+class mainClass:
+    def myNew(self):
+        print("Peddireddy")
 
-myClass.myfunc1(self=" ")
+mainClass.myNew(self=" ")
