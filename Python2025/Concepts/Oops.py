@@ -34,4 +34,21 @@ class mainClass:
 
 mainClass.myNew(self=" ")
 
-class
+class bank_account:
+    def __init__(self,owner,balance=0):
+        self.owner = owner
+        self.balance = balance
+
+    def deposit(self,amount):
+        self.balance = self.balance+amount
+        print(f"{amount} has been added to account")
+
+    def total(self):
+        print(self.balance)
+
+acc = bank_account("hari",4500)
+acc.deposit(6000)
+acc.total()
+
+
+

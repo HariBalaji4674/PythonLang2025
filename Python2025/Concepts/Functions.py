@@ -78,3 +78,73 @@ largest(100, 200)
 
 
 
+def evenOdd(number):
+    if number%2 == 0:
+        print(f"{number} is even")
+    else:
+        print(f"{number} is odd")
+
+evenOdd(20)
+evenOdd(40)
+evenOdd(50)
+evenOdd(56)
+evenOdd(67)
+evenOdd(87)
+
+def print_number(*args): #positional Arguments
+    print(args)
+
+print_number(20,30,40,50,60,"peddireddy")
+
+def print_number(**kwargs):#key-word arguments == key value pairs
+    print(kwargs)
+
+# print_number(20,30,40)
+
+# Lamda Functions will only have one expression
+# lambda arguments : expression
+
+def addition(a,b):
+    return a+b
+
+c = addition(20,40)
+print(c)
+
+c = lambda a,b : a+b
+
+print(c(20,100))
+
+addition1 = lambda a : a%2 == 0
+print(addition1(20))
+
+# map() applies a function to all items in a list
+# map will take two arguments function and iterable
+numbers = [2,3,4,5,6,7,8]
+list1 = list(map(lambda x : x**2,numbers))
+
+print(list1)
+
+# numbers[5] = [list(input("Please enter numbers: "))]
+#
+# list1 = list(map(lambda x : x**2,numbers))
+# print(list1)
+
+# Filter also takes 2 inputs function and iterable
+
+# list1 = filter(,5)
+# print(list1)
+
+students = [
+    {"name": "Alice Johnson", "age": 14, "class": "8B"},
+    {"name": "Michael Smith", "age": 15, "class": "9A"},
+    {"name": "Sofia Martinez", "age": 13, "class": "7C"},
+    {"name": "Liam Brown", "age": 16, "class": "10D"},
+    {"name": "Emma Wilson", "age": 12, "class": "6A"}
+]
+print(students[0].keys())
+
+def names_out(peoples):
+    return peoples[1].keys(),peoples[1].values()
+
+listnames = names_out(students)
+print(listnames)
