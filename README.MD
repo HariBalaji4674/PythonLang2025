@@ -318,3 +318,22 @@ print(my_list[1:4])  # Output: [25, 30, 35]
 - Write Down your solution
 - Look out for edge cases and boundary conditions
 
+#### Array
+
+* Fixed Size
+* Same Data Type (Homogeneous)
+
+#### Search & Sorting
+
+* Linear Search
+  * Run the Loop and Compare 
+  * print()
+
+* Binary Search 
+  * array and target
+  * Binary search should always sort
+  * floor division 
+  * 
+
+
+
